@@ -6,7 +6,7 @@
 //
 
 final class Node<T> {
-    private(set) let value: T
+    let value: T
     var next: Node<T>?
     
     init(value: T) {

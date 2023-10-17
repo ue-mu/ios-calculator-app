@@ -60,5 +60,6 @@ struct CalculatorItemQueue<Item: CalculateItem> {
     mutating func clear() {
         head = nil
         tail = nil
+        elementCount = 0
     }
 }
